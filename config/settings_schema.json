@@ -1373,6 +1373,22 @@
         "content": "t:settings_schema.search_input.settings.header.content"
       },
       {
+        "type": "select",
+        "id": "search_type",
+        "label": "Search type",
+        "options": [
+          {
+            "value": "drawer",
+            "label": "Drawer"
+          },
+          {
+            "value": "normal",
+            "label": "Normal"
+          }
+        ],
+        "default": "normal"
+      },      
+      {
         "type": "checkbox",
         "id": "predictive_search_enabled",
         "default": true,

@@ -231,3 +231,17 @@
     display: list-item;
   }
 }
+
+.multicolumn.multi-banner .multicolumn-card-spacing {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.multicolumn.multi-banner .multicolumn-card-spacing img {
+  transition: all .5s ease;
+}
+
+.multicolumn.multi-banner .multicolumn-card-spacing a:hover img {
+  transform: scale(110%);
+}
