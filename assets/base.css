@@ -869,7 +869,7 @@ summary::-webkit-details-marker {
 }
 
 .subtitle--medium {
-  font-size: 1.6rem;
+  font-size: var(--font-base);
   letter-spacing: 0.08rem;
 }
 
@@ -1587,12 +1587,12 @@ details[open] > .share-button__fallback {
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
-  font-size: 1.6rem;
+  font-size: var(--font-base);
   width: 100%;
   box-sizing: border-box;
   transition: box-shadow var(--duration-short) ease;
   border-radius: var(--inputs-radius);
-  height: 4.5rem;
+  height: 4.8rem;
   min-height: calc(var(--inputs-border-width) * 2);
   min-width: calc(7rem + (var(--inputs-border-width) * 2));
   position: relative;
@@ -1732,11 +1732,12 @@ details[open] > .share-button__fallback {
   padding: 1.5rem;
   margin: var(--inputs-border-width);
   transition: box-shadow var(--duration-short) ease;
+  box-shadow: var(--inputs-shadow-horizontal-offset) var(--inputs-shadow-vertical-offset) var(--inputs-shadow-blur-radius) rgba(0, 0, 0, 0.1);
 }
 
 .field__label,
 .customer .field label {
-  font-size: 1.6rem;
+  font-size: var(--font-base);
   left: calc(var(--inputs-border-width) + 2rem);
   top: calc(1rem + var(--inputs-border-width));
   margin-bottom: 0;
@@ -1787,7 +1788,7 @@ details[open] > .share-button__fallback {
   color: currentColor;
   cursor: pointer;
   display: flex;
-  height: 4.4rem;
+  height: 4.8rem;
   justify-content: center;
   overflow: hidden;
   padding: 0;
@@ -1840,7 +1841,7 @@ input[type='checkbox'] {
 }
 
 .form__message--large {
-  font-size: 1.6rem;
+  font-size: var(--font-base);
 }
 
 .customer .field .form__message {
@@ -1869,7 +1870,7 @@ input[type='checkbox'] {
 
 .form-status {
   margin: 0;
-  font-size: 1.6rem;
+  font-size: var(--font-base);
 }
 
 .form-status-list {
@@ -1930,7 +1931,7 @@ input[type='checkbox'] {
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
-  font-size: 1.6rem;
+  font-size: var(--font-base);
   font-weight: 500;
   opacity: 0.85;
   text-align: center;
@@ -2525,7 +2526,6 @@ input[type='checkbox'] {
   display: flex;
   grid-area: icons;
   justify-self: end;
-  padding-right: 0.8rem;
 }
 
 .header__icons .shopify-app-block {
@@ -2565,16 +2565,19 @@ input[type='checkbox'] {
   vertical-align: middle;
 }
 
-.header__icon,
-.header__icon--cart .icon {
-  height: 4.4rem;
-  width: 4.4rem;
+.header__icon {
+  height: 4.6rem;
+  width: 4.6rem;
   padding: 0;
+}
+
+.header__icon--cart .icon {
+  width: 2.2rem;
+  height: 2.2rem;
 }
 
 .header__icon--cart {
   position: relative;
-  margin-right: -1.2rem;
 }
 
 .header__icon--menu[aria-expanded='true']::before {

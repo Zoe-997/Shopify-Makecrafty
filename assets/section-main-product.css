@@ -289,7 +289,7 @@ a.product__text {
   }
 
   .product__info-container .price--on-sale .price-item--regular {
-    font-size: 1.6rem;
+    font-size: var(--font-base);
   }
 
   .product__info-container > *:first-child {
@@ -843,7 +843,7 @@ a.product__text {
 }
 
 .product-popup-modal__button {
-  font-size: 1.6rem;
+  font-size: var(--font-base);
   padding-right: 1.3rem;
   padding-left: 0;
   min-height: 4.4rem;
@@ -1377,7 +1377,7 @@ a.product__text {
 
 .recipient-checkbox {
   flex-grow: 1;
-  font-size: 1.6rem;
+  font-size: var(--font-base);
   display: flex;
   word-break: break-word;
   align-items: flex-start;

@@ -8,34 +8,42 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "Our Policy",
             "menu": "footer"
           }
         },
-        "footer-1": {
+        "link_list_Wi9yj9": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
+            "heading": "Our Categories",
             "menu": "footer"
           }
         },
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "INFO",
+            "subtext": "<p><a href=\"https:\/\/moosfy.com\/subscribe.php\">Email support: info@moosfy.com<\/a><\/p><p><a href=\"https:\/\/moosfy.com\/subscribe.php\">Hotline (Text Only): +1 (408) 713 3456<\/a><\/p><p><a href=\"https:\/\/moosfy.com\/subscribe.php\">Office Hours: Mon-Fri: 9AM to 6PM EST<\/a><\/p><p><a href=\"https:\/\/moosfy.com\/subscribe.php\">Address: 410 E Santa Clara Street, San Jose, CA 95113<\/a><\/p>"
+          }
+        },
+        "brand_information_dNrNpj": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
           }
         }
       },
       "block_order": [
         "footer-0",
-        "footer-1",
-        "footer-2"
+        "link_list_Wi9yj9",
+        "footer-2",
+        "brand_information_dNrNpj"
       ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
@@ -43,7 +51,7 @@
         "show_policy": false,
         "margin_top": 48,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     }
   },
