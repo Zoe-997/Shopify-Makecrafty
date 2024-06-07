@@ -124,6 +124,9 @@
         "text": {
           "label": "Text"
         },
+        "link": {
+          "label": "Link"
+        },
         "button_background": {
           "label": "Solid button background"
         },
@@ -1792,6 +1795,9 @@
         "paragraph": {
           "content": "Add a description or image by editing your collection. [Learn more](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
         },
+        "show_collection_title": {
+          "label": "Show collection title"
+        },
         "show_collection_description": {
           "label": "Show collection description"
         },
@@ -1813,6 +1819,9 @@
         "enable_filtering": {
           "label": "Enable filtering",
           "info": "Customize filters with the Search & Discovery app. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
+        },
+        "show_collection_title": {
+          "label": "Show collection title"
         },
         "filter_type": {
           "label": "Desktop filter layout",

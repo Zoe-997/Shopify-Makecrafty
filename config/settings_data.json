@@ -33,7 +33,7 @@
     "inputs_shadow_blur": 5,
     "card_style": "standard",
     "card_image_padding": 0,
-    "card_text_alignment": "left",
+    "card_text_alignment": "center",
     "card_color_scheme": "scheme-2",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
@@ -126,6 +126,89 @@
         "settings": {
           "color_scheme": "scheme-1"
         }
+      },
+      "breadcrumb": {
+        "type": "breadcrumb",
+        "settings": {
+          "bg": "#ffffff",
+          "b_color": "#ebebeb",
+          "b_height": 30,
+          "mg_bottom": 20,
+          "mobile_bg": "#f5f5f5",
+          "mobile_ht": 30,
+          "mobile_mg_bottom": 20,
+          "show_n_p": true
+        }
+      },
+      "collection-sidebar": {
+        "type": "collection-sidebar",
+        "blocks": {
+          "collection-sidebar-0": {
+            "type": "collections",
+            "settings": {
+              "title": "CATEGORIES",
+              "default_state": "open",
+              "show_counter": true,
+              "menu": "collection-sidebar"
+            }
+          },
+          "collection-sidebar-1": {
+            "type": "filters",
+            "settings": {
+              "title": "REFINE BY",
+              "default_state": "open",
+              "type": "tags",
+              "items": "$0.00 - $25.00|$25.00 - $50.00|$50.00 - $75.00|$75.00 - $100.00"
+            }
+          },
+          "products_Jj4eTf": {
+            "type": "products",
+            "settings": {
+              "title": "NEW PRODUCTS",
+              "default_state": "open",
+              "collection": "gift-for-dad",
+              "max_count": 3
+            }
+          }
+        },
+        "block_order": [
+          "collection-sidebar-0",
+          "collection-sidebar-1",
+          "products_Jj4eTf"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "main-collection-product-grid": {
+        "type": "main-collection-product-grid",
+        "settings": {
+          "products_per_page": 16,
+          "columns_desktop": 4,
+          "color_scheme": "",
+          "show_collection_title": true,
+          "image_ratio": "adapt",
+          "image_shape": "default",
+          "show_secondary_image": false,
+          "show_vendor": false,
+          "show_rating": false,
+          "quick_add": "none",
+          "enable_filtering": false,
+          "filter_type": "horizontal",
+          "enable_sorting": true,
+          "columns_mobile": "2",
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+      },
+      "main-collection-banner": {
+        "type": "main-collection-banner",
+        "settings": {
+          "show_collection_title": false,
+          "show_collection_description": true,
+          "show_collection_image": false,
+          "color_scheme": ""
+        }
       }
     },
     "content_for_index": [
@@ -137,6 +220,7 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text": "#000000",
+          "link": "#ee534f",
           "button": "#000000",
           "button_label": "#ffffff",
           "secondary_button_label": "#000000",
@@ -148,6 +232,7 @@
           "background": "#f3f3f3",
           "background_gradient": "",
           "text": "#121212",
+          "link": "#ee534f",
           "button": "#121212",
           "button_label": "#f3f3f3",
           "secondary_button_label": "#121212",
@@ -159,6 +244,7 @@
           "background": "#242833",
           "background_gradient": "",
           "text": "#ffffff",
+          "link": "#ee534f",
           "button": "#ffffff",
           "button_label": "#000000",
           "secondary_button_label": "#ffffff",
@@ -170,6 +256,7 @@
           "background": "#121212",
           "background_gradient": "",
           "text": "#ffffff",
+          "link": "#ee534f",
           "button": "#ffffff",
           "button_label": "#121212",
           "secondary_button_label": "#ffffff",
@@ -181,6 +268,7 @@
           "background": "#334fb4",
           "background_gradient": "",
           "text": "#ffffff",
+          "link": "#ee534f",
           "button": "#ffffff",
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
@@ -192,6 +280,7 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text": "#000000",
+          "link": "#ee534f",
           "button": "#ffffff",
           "button_label": "#000000",
           "secondary_button_label": "#000000",
