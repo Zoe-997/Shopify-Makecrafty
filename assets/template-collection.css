@@ -117,10 +117,22 @@
   list-style: none;
   padding: 0;
   margin-top: .5rem;
+  font-size: 1.4rem;
 }
 
 .nav-accordion li {
   margin-bottom: .5rem;
+}
+
+.collections-menu__button a,
+.nav-accordion >li>a {
+  font-weight: 500;
+}
+
+.nav-accordion li ul {
+  list-style: none;
+  padding-left: 1.5rem;
+  display: none;
 }
 
 .layer-navigation__head h4 {
@@ -180,5 +192,14 @@
   text-transform: uppercase;
   position: absolute;
   left: 5rem;
-  top: 3.6rem;
+  top: 1.2rem;
+  margin: 0;
+}
+
+.js_categories_content .collection-hero .collection-hero__description:not(:empty) {
+  padding-bottom: 3.6rem;
+}
+
+.js_categories_content .section + .section {
+  margin-top: 0;
 }

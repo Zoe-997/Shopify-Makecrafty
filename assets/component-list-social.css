@@ -35,3 +35,27 @@
 .list-social__link:hover .icon {
   transform: scale(1.07);
 }
+
+.product__list-social {
+  justify-content: flex-start;
+}
+
+.product__list-social .list-social__item .list-social__link {
+  width: auto;
+  height: auto;
+  background-color: white !important;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(var(--color-foreground), .1);
+  border-radius: 0;
+  text-decoration: none;
+  gap: .8rem;
+  padding: .8rem 1rem;
+}
+
+.product__list-social .list-social__item .list-social__link span {
+  color: rgb(var(--color-foreground));
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  line-height: 1;
+}

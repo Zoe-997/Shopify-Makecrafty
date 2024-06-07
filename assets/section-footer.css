@@ -525,6 +525,11 @@
 }
 
 /* check for flexbox gap in older Safari versions */
+.footer__content-top .grid {
+  margin-left: -1.2rem;
+  margin-right: -1.2rem;
+}
+
 @supports not (inset: 10px) {
   @media screen and (max-width: 749px) {
     .footer .grid {
