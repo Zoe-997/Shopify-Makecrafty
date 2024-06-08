@@ -166,6 +166,10 @@
   width: 100%;
 }
 
+.banner__media > img {
+  object-fit: fill;
+}
+
 .banner__media-half {
   width: 50%;
 }
