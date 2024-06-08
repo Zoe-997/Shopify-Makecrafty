@@ -2370,8 +2370,8 @@ input[type='checkbox'] {
 
 .header {
   display: grid;
-  grid-template-areas: 'left-icons heading icons';
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: 'left-icons heading search icons';
+  grid-template-columns: 1fr 2fr 1fr 1fr;
   align-items: center;
 }
 
@@ -3559,4 +3559,18 @@ details-disclosure > details {
 
 .breadcrumbs a:hover {
   color: rgb(var(--color-link));
+}
+
+.header-search-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header-search-mobile {
+    display: block;
+  }
+
+  .header-search-destop {
+    display: none;
+  }
 }
