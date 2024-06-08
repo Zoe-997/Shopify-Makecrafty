@@ -2059,6 +2059,9 @@
               "options__3": {
                 "label": "None"
               }
+            },
+            "show_color_option": {
+              "label": "Show color property as an image"
             }
           }
         },

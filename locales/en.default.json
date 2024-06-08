@@ -534,7 +534,8 @@
     "home": "home",
     "login": "login",
     "register": "register",
-    "back_to": "back"
+    "back_to": "back",
+    "blog": "blog"
   },
   "sidebar": {
     "no_collections": "No collections",
