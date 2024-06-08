@@ -529,5 +529,19 @@
     "page_titles": {
       "search": "S"
     }
+  },
+  "breadcrumbs": {
+    "home": "home",
+    "login": "login",
+    "register": "register",
+    "back_to": "back"
+  },
+  "sidebar": {
+    "no_collections": "No collections",
+    "no_tags": "No tags",
+    "no_colors": "No colors",
+    "no_vendors": "No vendors",
+    "no_product_types": "No product types",
+    "all_product": "All product"
   }
 }

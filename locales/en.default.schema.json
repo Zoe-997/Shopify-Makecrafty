@@ -124,6 +124,9 @@
         "text": {
           "label": "Text"
         },
+        "link": {
+          "label": "Link"
+        },
         "button_background": {
           "label": "Solid button background"
         },
@@ -1067,6 +1070,9 @@
         "show_policy": {
           "label": "Show policy links"
         },
+        "show_copyright": {
+          "label": "Show copyright"
+        },
         "margin_top": {
           "label": "Top margin"
         },
@@ -1789,6 +1795,9 @@
         "paragraph": {
           "content": "Add a description or image by editing your collection. [Learn more](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
         },
+        "show_collection_title": {
+          "label": "Show collection title"
+        },
         "show_collection_description": {
           "label": "Show collection description"
         },
@@ -1810,6 +1819,9 @@
         "enable_filtering": {
           "label": "Enable filtering",
           "info": "Customize filters with the Search & Discovery app. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
+        },
+        "show_collection_title": {
+          "label": "Show collection title"
         },
         "filter_type": {
           "label": "Desktop filter layout",
@@ -2067,7 +2079,13 @@
           "name": "Pickup availability"
         },
         "description": {
-          "name": "Description"
+          "name": "Description",
+          "settings": {
+            "text": {
+              "label": "Text",
+              "default": "Description"
+            }
+          }
         },
         "sku": {
           "name": "SKU",
@@ -2098,6 +2116,15 @@
             },
             "title_info": {
               "content": "A store title and description are included with the preview image. [Learn more](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
+            }
+          }
+        },
+        "social": {
+          "name": "Social",
+          "settings": {
+            "text": {
+              "label": "Text",
+              "default": "Social"
             }
           }
         },

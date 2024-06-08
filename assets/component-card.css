@@ -402,8 +402,7 @@
   }
 
   .underline-links-hover:hover a {
-    text-decoration: underline;
-    text-underline-offset: 0.3rem;
+    color: rgb(var(--color-link));
   }
 }
 
@@ -476,6 +475,7 @@
 
 .card-information > .price {
   color: rgb(var(--color-foreground));
+  font-weight: 600;
 }
 
 .card--horizontal .card-information > .price {
