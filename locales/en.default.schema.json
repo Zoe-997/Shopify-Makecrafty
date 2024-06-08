@@ -1026,7 +1026,7 @@
         },
         "newsletter_heading": {
           "label": "Heading",
-          "default": "Subscribe to our emails"
+          "default": "Subscribe to our newsletter"
         },
         "header__1": {
           "content": "Email Signup",
@@ -2768,7 +2768,7 @@
           "settings": {
             "heading": {
               "label": "Heading",
-              "default": "Subscribe to our emails"
+              "default": "Subscribe to our newsletter"
             }
           }
         },
