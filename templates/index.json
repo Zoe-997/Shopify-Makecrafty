@@ -3,7 +3,6 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/father_banner_60x60_057ecd3d-a283-4f63-94bb-af76786341d7.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "vertical_space": 48,
@@ -65,6 +64,12 @@
     "multibanner_bx7Jpf": {
       "type": "multibanner",
       "blocks": {
+        "column_XHXCaE": {
+          "type": "column",
+          "settings": {
+            "link": ""
+          }
+        },
         "column_GXhUXK": {
           "type": "column",
           "settings": {
@@ -79,6 +84,7 @@
         }
       },
       "block_order": [
+        "column_XHXCaE",
         "column_GXhUXK",
         "column_49FgyL"
       ],
@@ -147,6 +153,7 @@
     },
     "featured_blog_4VmQhD": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "OUR BLOG",
         "heading_size": "h2",
