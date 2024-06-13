@@ -139,6 +139,7 @@
     "image_banner_qHeRXn": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/vision.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "vertical_space": 48,
