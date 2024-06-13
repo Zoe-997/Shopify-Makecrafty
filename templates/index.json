@@ -3,6 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/slide.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "vertical_space": 48,
