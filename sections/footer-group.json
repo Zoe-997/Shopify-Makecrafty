@@ -23,13 +23,14 @@
           "type": "text",
           "settings": {
             "heading": "INFO",
-            "subtext": "<p><a href=\"https:\/\/moosfy.com\/subscribe.php\">Email support: info@moosfy.com<\/a><\/p><p><a href=\"https:\/\/moosfy.com\/subscribe.php\">Hotline (Text Only): +1 (408) 713 3456<\/a><\/p><p><a href=\"https:\/\/moosfy.com\/subscribe.php\">Office Hours: Mon-Fri: 9AM to 6PM EST<\/a><\/p><p><a href=\"https:\/\/moosfy.com\/subscribe.php\">Address: 410 E Santa Clara Street, San Jose, CA 95113<\/a><\/p>"
+            "subtext": "<p><a href=\"#\" title=\"#\">Email support: contact@folinas.com<\/a><\/p><p><a href=\"#\" title=\"#\">Hotline (Text Only): +1 (408) 713 3456<\/a><\/p><p><a href=\"#\" title=\"#\">Office Hours: Mon-Fri: 9AM to 6PM EST<\/a><\/p><p><a href=\"#\" title=\"#\">Address: 410 E Santa Clara Street, San Jose, CA 95113<\/a><\/p>"
           }
         },
         "brand_information_dNrNpj": {
           "type": "brand_information",
           "settings": {
-            "show_social": true
+            "show_social": true,
+            "footer__payment": true
           }
         }
       },
@@ -49,6 +50,7 @@
         "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": false,
+        "show_copyright": false,
         "margin_top": 48,
         "padding_top": 36,
         "padding_bottom": 0
