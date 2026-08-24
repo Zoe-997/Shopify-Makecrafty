@@ -147,7 +147,7 @@
                               {%- if block.settings.type != 'colors' -%}   
                                 {% if current_tags contains filter %}
                                     {%- capture filter_html -%}
-                                    <span class="wrap-icon{% if block.settings.type == 'colors' %} rounded-circle {% else %} {% endif %}"{% if block.settings.type == 'colors' %} data-value="{% render 'product-get-options-strip-symbols' with value: filter %}"{% endif %} data-bg="none">
+                                    <span class="wrap-icon{% if block.settings.type == 'colors' %} rounded-circle {% else %} {% endif %}"{% if block.settings.type == 'colors' %} data-value="{% render 'product-get-options-strip-symbols' with value, value: filter %}"{% endif %} data-bg="none">
                                       <i class="active {% if block.settings.type == 'colors' %} standard-color-arrow{% endif %}">
                                         <span class="icon"></span>                                    
                                       </i>
@@ -159,7 +159,7 @@
                                     {{filter_html | link_to_remove_tag:filter | replace: 'title=', 'class="item-popup js_ajax_filter active" title=' }}
                                 {% else %}
                                     {%- capture filter_html -%}
-                                    <span class="wrap-icon{% if block.settings.type == 'colors' %} rounded-circle {% else %} {% endif %}"{% if block.settings.type == 'colors' %} data-value="{% render 'product-get-options-strip-symbols' with value: filter %}"{% endif %} data-bg="none">
+                                    <span class="wrap-icon{% if block.settings.type == 'colors' %} rounded-circle {% else %} {% endif %}"{% if block.settings.type == 'colors' %} data-value="{% render 'product-get-options-strip-symbols' with value, value: filter %}"{% endif %} data-bg="none">
                                       <i class="{% if block.settings.type == 'colors' %} standard-color-arrow{% endif %}">
                                         <span class="icon"></span>
                                       </i>
@@ -231,7 +231,7 @@
           {% capture no_content_message %}{{ 'collections.sidebar.no_content' | t }}{% endcapture %}
           {%- capture navigation_content -%}
               {% capture custom_html %}
-              	{% include 'parse-page-html-content' with default_page: 'include-collections-sidebar' page_content: block.settings.page_content %}
+              	{% include 'parse-page-html-content' with default_page, default_page: 'include-collections-sidebar', page_content: block.settings.page_content %}
               {% endcapture %}
               {%- if custom_html != blank -%}
                   <div class="rte">
@@ -607,3 +607,21 @@
         }
     }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'product-get-options-strip-symbols' with value: filter %}"
+  to: "{% render 'product-get-options-strip-symbols' with value, value: filter %}"
+  position: 9299..9373
+- from: "{% render 'product-get-options-strip-symbols' with value: filter %}"
+  to: "{% render 'product-get-options-strip-symbols' with value, value: filter %}"
+  position: 10385..10459
+- from: "{% include 'parse-page-html-content' with default_page: 'include-collections-sidebar'
+    page_content: block.settings.page_content %}"
+  to: "{% include 'parse-page-html-content' with default_page, default_page: 'include-collections-sidebar',
+    page_content: block.settings.page_content %}"
+  position: 15402..15547
+{% endcomment %}
